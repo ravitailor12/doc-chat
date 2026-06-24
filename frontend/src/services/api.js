@@ -1,7 +1,8 @@
 import axios from "axios";
+import { baseURL } from "../constant";
 
 const api = axios.create({
-  baseURL: "http://localhost:8000",
+  baseURL: baseURL, 
 });
 
 // Upload a PDF file. `onProgress` (optional) receives 0-100.
