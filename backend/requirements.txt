@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+boto3
+python-dotenv
+python-multipart
+pydantic-settings
+google-genai
+psycopg2-binary
